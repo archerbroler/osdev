@@ -13,19 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa16763-c32b-4adb-8946-8cd70ca13154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system.c" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kernel.bin" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catmfs.c" afterPath="$PROJECT_DIR$/catmfs.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/screen.h" afterPath="$PROJECT_DIR$/include/screen.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isrs.c" afterPath="$PROJECT_DIR$/isrs.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kernel.bin" afterPath="$PROJECT_DIR$/kernel.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kmalloc.c" afterPath="$PROJECT_DIR$/kmalloc.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/proc.h" afterPath="$PROJECT_DIR$/include/proc.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.c" afterPath="$PROJECT_DIR$/page.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proc.c" afterPath="$PROJECT_DIR$/proc.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syscall.c" afterPath="$PROJECT_DIR$/syscall.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timer.c" afterPath="$PROJECT_DIR$/timer.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,14 +32,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54253834">
+    <splitter split-orientation="horizontal" split-proportion="0.48396096">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="679">
-                  <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+                <state relative-caret-position="544">
+                  <caret line="101" column="17" lean-forward="false" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#17#0" expanded="true" />
                   </folding>
@@ -55,21 +47,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.c" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/page.c">
+          <file leaf-file-name="screen.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/screen.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="201" column="20" lean-forward="true" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
+                <state relative-caret-position="513">
+                  <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="proc.c" pinned="false" current-in-tab="false">
+          <file leaf-file-name="system.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/system.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="55" column="56" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1721">
+                  <caret line="181" column="5" lean-forward="false" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="proc.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/proc.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                <state relative-caret-position="593">
+                  <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -88,8 +100,8 @@
           <file leaf-file-name="isrs.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/isrs.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+                <state relative-caret-position="40">
+                  <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
                   <folding>
                     <element signature="e#38#55#0" expanded="true" />
                   </folding>
@@ -100,8 +112,8 @@
           <file leaf-file-name="timer.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/timer.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
                   <folding>
                     <element signature="e#38#54#0" expanded="true" />
                   </folding>
@@ -145,7 +157,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="timer.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="timer.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/include/timer.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
@@ -155,11 +167,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="proc.h" pinned="false" current-in-tab="false">
+          <file leaf-file-name="proc.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/proc.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="359">
+                  <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
                   <folding>
                     <element signature="e#74#93#0" expanded="true" />
                   </folding>
@@ -316,21 +328,21 @@
         <option value="$PROJECT_DIR$/include/contious_heap.h" />
         <option value="$PROJECT_DIR$/heap_array_list.c" />
         <option value="$PROJECT_DIR$/contious_heap.c" />
-        <option value="$PROJECT_DIR$/include/proc.h" />
         <option value="$PROJECT_DIR$/syscall.h" />
         <option value="$PROJECT_DIR$/include/syscall.h" />
         <option value="$PROJECT_DIR$/isrs.c" />
         <option value="$PROJECT_DIR$/include/screen.h" />
-        <option value="$PROJECT_DIR$/proc.c" />
         <option value="$PROJECT_DIR$/page.c" />
         <option value="$PROJECT_DIR$/catmfs.c" />
         <option value="$PROJECT_DIR$/system.c" />
         <option value="$PROJECT_DIR$/linker.ld" />
         <option value="$PROJECT_DIR$/kmalloc.c" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/syscall.c" />
         <option value="$PROJECT_DIR$/timer.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/include/proc.h" />
+        <option value="$PROJECT_DIR$/proc.c" />
       </list>
     </option>
   </component>
@@ -784,7 +796,7 @@
       <workItem from="1499232692576" duration="24936000" />
       <workItem from="1499481614865" duration="1102000" />
       <workItem from="1499483264092" duration="89568000" />
-      <workItem from="1500539195573" duration="6169000" />
+      <workItem from="1500539195573" duration="9797000" />
     </task>
     <task id="LOCAL-00001" summary="6/30 pick it up....">
       <created>1498802868848</created>
@@ -849,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500370386256</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="7/20&#10;1.a simple user program&#10;2.fix delay();//Just cli and sti...">
+      <created>1500555405939</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1500555405939</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300795000" />
+    <option name="totallyTimeSpent" value="304423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1918" height="945" extended-state="6" />
@@ -900,7 +919,8 @@
     <MESSAGE value="7/16&#10;1. vep heap (no use///)" />
     <MESSAGE value="7/9&#10;1.修复页表的很多问题(修复了heap的page_align失效...)&#10;2.GPE when int in ring3(set DPL to 11   0x8E -&gt; 0xEE )" />
     <MESSAGE value="7/18&#10;1. syscall&#10;2.  把日期打对了..." />
-    <option name="LAST_COMMIT_MESSAGE" value="7/18&#10;1. syscall&#10;2.  把日期打对了..." />
+    <MESSAGE value="7/20&#10;1.a simple user program&#10;2.fix delay();//Just cli and sti..." />
+    <option name="LAST_COMMIT_MESSAGE" value="7/20&#10;1.a simple user program&#10;2.fix delay();//Just cli and sti..." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1057,7 +1077,7 @@
         <state relative-caret-position="420">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#97#116#0" expanded="true" />
+            <element signature="e#97#116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1094,16 +1114,6 @@
           <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
           <folding>
             <element signature="e#75#94#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/proc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1160,14 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screen.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/idt.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1217,28 +1219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/system.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/syscall.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/timer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1269,49 +1253,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kmalloc.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isrs.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#38#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1323,10 +1269,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screen.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/timer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#38#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isrs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/system.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="55" column="56" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="101" column="17" lean-forward="false" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/proc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#74#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="201" column="20" lean-forward="true" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
+        <state relative-caret-position="-1721">
+          <caret line="181" column="5" lean-forward="false" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
           <folding />
         </state>
       </provider>
