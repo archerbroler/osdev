@@ -14,8 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afa16763-c32b-4adb-8946-8cd70ca13154" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asm/page.asm" afterPath="$PROJECT_DIR$/asm/page.asm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asm/syscall.asm" afterPath="$PROJECT_DIR$/asm/syscall.asm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
@@ -28,16 +26,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/idt.c" afterPath="$PROJECT_DIR$/idt.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/contious_heap.h" afterPath="$PROJECT_DIR$/include/contious_heap.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/gdt.h" afterPath="$PROJECT_DIR$/include/gdt.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/page.h" afterPath="$PROJECT_DIR$/include/page.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/proc.h" afterPath="$PROJECT_DIR$/include/proc.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/tss.h" afterPath="$PROJECT_DIR$/include/tss.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.c" afterPath="$PROJECT_DIR$/page.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proc.c" afterPath="$PROJECT_DIR$/proc.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syscall.c" afterPath="$PROJECT_DIR$/syscall.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -821,7 +809,7 @@
       <workItem from="1502261410274" duration="405000" />
       <workItem from="1502261478762" duration="46000" />
       <workItem from="1502261601567" duration="21762000" />
-      <workItem from="1502289110315" duration="22289000" />
+      <workItem from="1502289110315" duration="22310000" />
     </task>
     <task id="LOCAL-00001" summary="6/30 pick it up....">
       <created>1498802868848</created>
@@ -914,11 +902,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502290422552</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="8/10&#10;1.still working on context switching....ya...">
+      <created>1502373793456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1502373793456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390478000" />
+    <option name="totallyTimeSpent" value="390499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1918" height="945" extended-state="6" />
@@ -969,7 +964,8 @@
     <MESSAGE value="7/21&#10;pcb and fork" />
     <MESSAGE value="8/6-8/8&#10;1. repick up after laptop fixed :D&#10;2. some test..." />
     <MESSAGE value="8/9&#10;1.still working on context switching...." />
-    <option name="LAST_COMMIT_MESSAGE" value="8/9&#10;1.still working on context switching...." />
+    <MESSAGE value="8/10&#10;1.still working on context switching....ya..." />
+    <option name="LAST_COMMIT_MESSAGE" value="8/10&#10;1.still working on context switching....ya..." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
