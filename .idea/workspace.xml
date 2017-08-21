@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/fs/ext2/ext2.c" line="108" />
+    <bookmark url="file://$PROJECT_DIR$/fs/ext2/ext2.c" line="113" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
@@ -17,7 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afa16763-c32b-4adb-8946-8cd70ca13154" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/ext2/ext2.c" afterPath="$PROJECT_DIR$/fs/ext2/ext2.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/ext2/include/ext2.h" afterPath="$PROJECT_DIR$/fs/ext2/include/ext2.h" />
     </list>
@@ -52,8 +51,8 @@
           <file leaf-file-name="ext2.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/fs/ext2/ext2.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="53">
-                  <caret line="292" column="19" lean-forward="false" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
+                <state relative-caret-position="264">
+                  <caret line="416" column="43" lean-forward="false" selection-start-line="416" selection-start-column="43" selection-end-line="416" selection-end-column="43" />
                   <folding>
                     <element signature="e#37#53#0" expanded="true" />
                   </folding>
@@ -160,9 +159,21 @@
           <file leaf-file-name="gdt.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/include/gdt.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
+                <state relative-caret-position="361">
                   <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="screen.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/screen.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+                  <folding>
+                    <marker date="1503132012775" expanded="true" signature="98:1423" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -170,11 +181,21 @@
           <file leaf-file-name="ext2.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/fs/ext2/include/ext2.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="227">
-                  <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                <state relative-caret-position="607">
+                  <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
                   <folding>
                     <element signature="e#75#96#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fs_node.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/fs_node.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="301">
+                  <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -237,6 +258,7 @@
       <find>block</find>
       <find>super_blk-&gt;s_block_size</find>
       <find>ext2_alloc_block</find>
+      <find>ext2_get_inode_block</find>
     </findStrings>
     <replaceStrings>
       <replace>uint32_t</replace>
@@ -262,7 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/heap.c" />
         <option value="$PROJECT_DIR$/document/paging.md" />
         <option value="$PROJECT_DIR$/include/heap_array_list.h" />
         <option value="$PROJECT_DIR$/make.out" />
@@ -311,6 +332,7 @@
         <option value="$PROJECT_DIR$/kmalloc.c" />
         <option value="$PROJECT_DIR$/contious_heap.c" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/include/fs_node.h" />
         <option value="$PROJECT_DIR$/fs/ext2/include/ext2.h" />
         <option value="$PROJECT_DIR$/fs/ext2/ext2.c" />
       </list>
@@ -857,7 +879,7 @@
       <workItem from="1502289110315" duration="37418000" />
       <workItem from="1502622272159" duration="4699000" />
       <workItem from="1502805481249" duration="193000" />
-      <workItem from="1502805682432" duration="106925000" />
+      <workItem from="1502805682432" duration="119642000" />
     </task>
     <task id="LOCAL-00001" summary="6/30 pick it up....">
       <created>1498802868848</created>
@@ -1020,11 +1042,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503154690835</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="8/20&#10;1. ext2:create dir and file may work fine....">
+      <created>1503233192916</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503233192916</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517424000" />
+    <option name="totallyTimeSpent" value="530141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1918" height="913" extended-state="6" />
@@ -1084,7 +1113,8 @@
     <MESSAGE value="8/17&#10;1. Happy birthday,elder!&#10;2.working on ext2" />
     <MESSAGE value="8/18&#10;1. ext2 find node,dir,simple read" />
     <MESSAGE value="8/19&#10;1. ext2..." />
-    <option name="LAST_COMMIT_MESSAGE" value="8/19&#10;1. ext2..." />
+    <MESSAGE value="8/20&#10;1. ext2:create dir and file may work fine...." />
+    <option name="LAST_COMMIT_MESSAGE" value="8/20&#10;1. ext2:create dir and file may work fine...." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1095,13 +1125,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screen.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/paging_heap.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1284,24 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/syscall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/proc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#74#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/ide.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -1377,16 +1382,6 @@
         <state relative-caret-position="240">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/screen.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1503132012775" expanded="true" signature="98:1423" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1480,6 +1475,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/fs_node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/gdt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/str.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1488,18 +1499,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/gdt.h">
+    <entry file="file://$PROJECT_DIR$/include/proc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="-567">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#74#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/syscall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/screen.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <marker date="1503132012775" expanded="true" signature="98:1423" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fs/ext2/include/ext2.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="607">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding>
             <element signature="e#75#96#0" expanded="true" />
           </folding>
@@ -1508,8 +1539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fs/ext2/ext2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="292" column="19" lean-forward="false" selection-start-line="292" selection-start-column="19" selection-end-line="292" selection-end-column="19" />
+        <state relative-caret-position="264">
+          <caret line="416" column="43" lean-forward="false" selection-start-line="416" selection-start-column="43" selection-end-line="416" selection-end-column="43" />
           <folding>
             <element signature="e#37#53#0" expanded="true" />
           </folding>
