@@ -29,13 +29,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/catmfs/catmfs.c" afterPath="$PROJECT_DIR$/fs/catmfs/catmfs.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/catmfs/include/catmfs.h" afterPath="$PROJECT_DIR$/fs/catmfs/include/catmfs.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/ext2/ext2.c" afterPath="$PROJECT_DIR$/fs/ext2/ext2.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/vfs/include/vfs.h" afterPath="$PROJECT_DIR$/fs/vfs/include/vfs.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/vfs/vfs.c" afterPath="$PROJECT_DIR$/fs/vfs/vfs.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs_node.c" afterPath="$PROJECT_DIR$/fs_node.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/intdef.h" afterPath="$PROJECT_DIR$/include/intdef.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/proc.h" afterPath="$PROJECT_DIR$/include/proc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isrs.c" afterPath="$PROJECT_DIR$/isrs.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kmalloc.c" afterPath="$PROJECT_DIR$/kmalloc.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.out" afterPath="$PROJECT_DIR$/make.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.c" afterPath="$PROJECT_DIR$/page.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,59 +54,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5811594">
+    <splitter split-orientation="horizontal" split-proportion="0.59492755">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="87">
-                  <caret line="258" column="19" lean-forward="true" selection-start-line="258" selection-start-column="19" selection-end-line="258" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#0#17#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Makefile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ext2.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/fs/ext2/ext2.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="553">
-                  <caret line="444" column="30" lean-forward="true" selection-start-line="444" selection-start-column="30" selection-end-line="444" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="vfs.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fs/vfs/vfs.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="115" column="25" lean-forward="true" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+                <state relative-caret-position="133">
+                  <caret line="251" column="13" lean-forward="true" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
                   <folding>
                     <element signature="e#38#54#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="str.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/str.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="139" column="5" lean-forward="false" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -110,8 +72,8 @@
           <file leaf-file-name="elfloader.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/exec/elf/elfloader.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="581">
-                  <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+                <state relative-caret-position="380">
+                  <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
                   <folding>
                     <element signature="e#38#54#0" expanded="true" />
                   </folding>
@@ -119,41 +81,51 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="elfloader.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/exec/elf/include/elfloader.h">
+          <file leaf-file-name="isrs.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/isrs.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state relative-caret-position="701">
+                  <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="elf.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/exec/elf/include/elf.h">
+          <file leaf-file-name="proc.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/proc.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+                <state relative-caret-position="361">
+                  <caret line="203" column="17" lean-forward="true" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <file leaf-file-name="schedule.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/schedule.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+                  <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ide.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ide.c">
+          <file leaf-file-name="page.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
-                  <caret line="291" column="23" lean-forward="false" selection-start-line="291" selection-start-column="23" selection-end-line="291" selection-end-column="23" />
+                <state relative-caret-position="253">
+                  <caret line="214" column="5" lean-forward="false" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="exec.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exec/exec.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -185,16 +157,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="str.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/str.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="screen.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/screen.c">
               <provider selected="true" editor-type-id="text-editor">
@@ -205,11 +167,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vfs.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="vfs.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fs/vfs/include/vfs.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state relative-caret-position="640">
+                  <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
                   <folding>
                     <element signature="e#73#92#0" expanded="true" />
                   </folding>
@@ -253,6 +215,36 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="exec.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exec/include/exec.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="schedule.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/schedule.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="140">
+                  <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="elfloader.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/exec/elf/include/elfloader.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -286,6 +278,7 @@
       <find>catmfs</find>
       <find>putf_const</find>
       <find>putf</find>
+      <find>error:</find>
       <find>Elf32_Word</find>
     </findStrings>
     <replaceStrings>
@@ -315,16 +308,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/asm/page.asm" />
-        <option value="$PROJECT_DIR$/scheduling.c" />
-        <option value="$PROJECT_DIR$/include/schedule.h" />
         <option value="$PROJECT_DIR$/irqs.c" />
         <option value="$PROJECT_DIR$/include/syscall.h" />
         <option value="$PROJECT_DIR$/syscall.c" />
         <option value="$PROJECT_DIR$/include/tss.h" />
-        <option value="$PROJECT_DIR$/include/proc.h" />
         <option value="$PROJECT_DIR$/tss.c" />
-        <option value="$PROJECT_DIR$/isrs.c" />
         <option value="$PROJECT_DIR$/include/ide.h" />
         <option value="$PROJECT_DIR$/fs/ext2/include/superblk.h" />
         <option value="$PROJECT_DIR$/dev/blk_dev.c" />
@@ -333,7 +321,6 @@
         <option value="$PROJECT_DIR$/include/screen.h" />
         <option value="$PROJECT_DIR$/contious_heap.c" />
         <option value="$PROJECT_DIR$/include/paging_heap.h" />
-        <option value="$PROJECT_DIR$/page.c" />
         <option value="$PROJECT_DIR$/include/page.h" />
         <option value="$PROJECT_DIR$/paging_heap.c" />
         <option value="$PROJECT_DIR$/fs/catmfs/catmfs.h" />
@@ -345,7 +332,6 @@
         <option value="$PROJECT_DIR$/include/str.h" />
         <option value="$PROJECT_DIR$/str.c" />
         <option value="$PROJECT_DIR$/fs/ext2/include/ext2.h" />
-        <option value="$PROJECT_DIR$/schedule.c" />
         <option value="$PROJECT_DIR$/proc.c" />
         <option value="$PROJECT_DIR$/system.c" />
         <option value="$PROJECT_DIR$/keyboard.c" />
@@ -356,15 +342,22 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/fs/catmfs/include/catmfs.h" />
         <option value="$PROJECT_DIR$/fs/catmfs/catmfs.c" />
+        <option value="$PROJECT_DIR$/include/proc.h" />
+        <option value="$PROJECT_DIR$/include/intdef.h" />
         <option value="$PROJECT_DIR$/kmalloc.c" />
-        <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/exec/elf/include/elfloader.h" />
-        <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/fs/vfs/include/vfs.h" />
-        <option value="$PROJECT_DIR$/fs/vfs/vfs.c" />
         <option value="$PROJECT_DIR$/fs/ext2/ext2.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/fs_node.c" />
+        <option value="$PROJECT_DIR$/fs/vfs/include/vfs.h" />
         <option value="$PROJECT_DIR$/exec/elf/include/elf.h" />
+        <option value="$PROJECT_DIR$/fs/vfs/vfs.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/exec/exec.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/page.c" />
+        <option value="$PROJECT_DIR$/isrs.c" />
+        <option value="$PROJECT_DIR$/schedule.c" />
+        <option value="$PROJECT_DIR$/exec/elf/include/elfloader.h" />
         <option value="$PROJECT_DIR$/exec/elf/elfloader.c" />
       </list>
     </option>
@@ -665,6 +658,38 @@
               <option name="myItemId" value="exec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="W2" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="W2" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="elf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -765,11 +790,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exec/include" />
       <recent name="$PROJECT_DIR$/exec/elf/include" />
       <recent name="$PROJECT_DIR$/dev/include" />
       <recent name="$PROJECT_DIR$/fs/catmfs/include" />
       <recent name="$PROJECT_DIR$/fs/vfs/include" />
-      <recent name="$PROJECT_DIR$/fs/catmfs" />
     </key>
   </component>
   <component name="RunManager" selected="GDB Remote Debug.GDB">
@@ -1035,7 +1060,7 @@
       <workItem from="1503556956518" duration="211000" />
       <workItem from="1503557187756" duration="6253000" />
       <workItem from="1503650774382" duration="30748000" />
-      <workItem from="1503899372055" duration="36554000" />
+      <workItem from="1503899372055" duration="50876000" />
     </task>
     <task id="LOCAL-00001" summary="6/30 pick it up....">
       <created>1498802868848</created>
@@ -1233,11 +1258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504017477222</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="8/30&#10;">
+      <created>1504106212273</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1504106212274</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="624816000" />
+    <option name="totallyTimeSpent" value="639138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1918" height="913" extended-state="6" />
@@ -1275,7 +1307,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="7/7 muti-proc" />
     <MESSAGE value="7/8 muti-proc   and   stack" />
     <MESSAGE value="7/8 fix alloc_frame&#10;" />
     <MESSAGE value="7/8&#10;1.clone page dir&#10;2.some shit bug" />
@@ -1300,7 +1331,8 @@
     <MESSAGE value="8/22-25&#10;1. vfs&#10;2. catmfs" />
     <MESSAGE value="8/28&#10;1. fs" />
     <MESSAGE value="8/28&#10;1. rewrite ext2_write" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/28&#10;1. rewrite ext2_write" />
+    <MESSAGE value="8/30&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/30&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1311,57 +1343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/proc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/syscall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs/ext2/include/superblk.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/contious_heap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contious_heap.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="121" column="17" lean-forward="false" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/kmalloc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/bits/dirent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/include/blk_dev.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1426,14 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fs_node.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/include/serial.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1475,14 +1448,6 @@
           <folding>
             <marker date="1503132012775" expanded="true" signature="98:1423" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedule.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,14 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="265" column="21" lean-forward="false" selection-start-line="265" selection-start-column="21" selection-end-line="265" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/timer.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -1558,14 +1515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="29" column="75" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1599,16 +1548,8 @@
         <state relative-caret-position="253">
           <caret line="256" column="13" lean-forward="false" selection-start-line="256" selection-start-column="13" selection-end-line="256" selection-end-column="13" />
           <folding>
-            <element signature="e#39#59#0" expanded="true" />
+            <element signature="e#39#59#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kmalloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1616,14 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="291" column="23" lean-forward="false" selection-start-line="291" selection-start-column="23" selection-end-line="291" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1638,30 +1571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fs/vfs/include/vfs.h">
+    <entry file="file://$PROJECT_DIR$/include/intdef.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#73#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="258" column="19" lean-forward="true" selection-start-line="258" selection-start-column="19" selection-end-line="258" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1676,16 +1589,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fs/ext2/ext2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="444" column="30" lean-forward="true" selection-start-line="444" selection-start-column="30" selection-end-line="444" selection-end-column="30" />
+        <state relative-caret-position="373">
+          <caret line="435" column="19" lean-forward="false" selection-start-line="435" selection-start-column="19" selection-end-line="435" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kmalloc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/proc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="1565" column="44" lean-forward="false" selection-start-line="1565" selection-start-column="44" selection-end-line="1565" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/vfs/include/vfs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#73#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/elf/include/elf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="277" column="21" lean-forward="false" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/include/exec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="203" column="17" lean-forward="true" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/schedule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isrs.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="214" column="5" lean-forward="false" selection-start-line="214" selection-start-column="5" selection-end-line="214" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs_node.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec/exec.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fs/vfs/vfs.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="115" column="25" lean-forward="true" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="251" column="13" lean-forward="true" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
           <folding>
             <element signature="e#38#54#0" expanded="true" />
           </folding>
@@ -1694,24 +1739,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exec/elf/include/elfloader.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec/elf/include/elf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exec/elf/elfloader.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="380">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="e#38#54#0" expanded="true" />
           </folding>
