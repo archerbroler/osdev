@@ -17,8 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afa16763-c32b-4adb-8946-8cd70ca13154" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyExecutable.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyExecutable.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyExecutable.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyExecutable.dir/build.make" />
@@ -29,17 +27,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/W2.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/ext2/ext2.c" afterPath="$PROJECT_DIR$/fs/ext2/ext2.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/vfs/include/vfs.h" afterPath="$PROJECT_DIR$/fs/vfs/include/vfs.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs/vfs/vfs.c" afterPath="$PROJECT_DIR$/fs/vfs/vfs.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fs_node.c" afterPath="$PROJECT_DIR$/fs_node.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/intdef.h" afterPath="$PROJECT_DIR$/include/intdef.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/proc.h" afterPath="$PROJECT_DIR$/include/proc.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isrs.c" afterPath="$PROJECT_DIR$/isrs.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kmalloc.c" afterPath="$PROJECT_DIR$/kmalloc.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.out" afterPath="$PROJECT_DIR$/make.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.c" afterPath="$PROJECT_DIR$/page.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +59,8 @@
           <file leaf-file-name="elfloader.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/exec/elf/elfloader.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+                <state relative-caret-position="180">
+                  <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
                   <folding>
                     <element signature="e#38#54#0" expanded="true" />
                   </folding>
@@ -1060,7 +1047,7 @@
       <workItem from="1503556956518" duration="211000" />
       <workItem from="1503557187756" duration="6253000" />
       <workItem from="1503650774382" duration="30748000" />
-      <workItem from="1503899372055" duration="50876000" />
+      <workItem from="1503899372055" duration="51548000" />
     </task>
     <task id="LOCAL-00001" summary="6/30 pick it up....">
       <created>1498802868848</created>
@@ -1265,11 +1252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504106212274</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="8/31&#10;1.elf loader&#10;2.open and read&#10;">
+      <created>1504244145520</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1504244145520</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="639138000" />
+    <option name="totallyTimeSpent" value="639810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1918" height="913" extended-state="6" />
@@ -1307,7 +1301,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="7/8 muti-proc   and   stack" />
     <MESSAGE value="7/8 fix alloc_frame&#10;" />
     <MESSAGE value="7/8&#10;1.clone page dir&#10;2.some shit bug" />
     <MESSAGE value="7/16&#10;1. vep heap (no use///)" />
@@ -1332,7 +1325,8 @@
     <MESSAGE value="8/28&#10;1. fs" />
     <MESSAGE value="8/28&#10;1. rewrite ext2_write" />
     <MESSAGE value="8/30&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/30&#10;" />
+    <MESSAGE value="8/31&#10;1.elf loader&#10;2.open and read&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/31&#10;1.elf loader&#10;2.open and read&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1747,8 +1741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exec/elf/elfloader.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
             <element signature="e#38#54#0" expanded="true" />
           </folding>
